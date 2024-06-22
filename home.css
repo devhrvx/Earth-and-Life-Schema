@@ -32,18 +32,20 @@ body {
     border-radius: 6px;
 }
 
-.nav-box a:hover {
-    color: #fff;
-    background-color: #428142;
-    border-radius: 6px;
-}
+
 #home {
     margin-right: 60px;
+    color: #05952e;
 
 }
 #references {
     margin-right: 60px;
     
+}
+.nav-box a:hover, #home:hover {
+    color: #fff;
+    background-color: #428142;
+    border-radius: 6px;
 }
 @media (max-width: 768px) {
     .nav-box {
