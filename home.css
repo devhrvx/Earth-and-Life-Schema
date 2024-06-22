@@ -1,5 +1,5 @@
 body {
-    background-color: #1f1f1f;
+    background-color: #2b2f39;
     padding-top: 70px; /* Adjust this value based on the actual height of your nav-box */
 }
 
@@ -133,4 +133,76 @@ h1 {
     font-weight: 700;
     font-size: 17px;
     color: #e6f1ff;
+}
+
+#he-1 {
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    height: 50vh;
+    padding: 5px;
+    background-color: #333333b4;
+    box-shadow: -8px 9px 20px 0px rgba(30,30,30,0.75);
+    -webkit-box-shadow: -8px 9px 20px 0px rgba(30,30,30,0.75);
+    -moz-box-shadow: -8px 9px 20px 0px rgba(30,30,30,0.75);
+    width: 89%;
+    justify-content: space-around;
+}
+
+.box2-item:nth-child(odd) {
+    margin-top: 20px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 45vh;
+    /* border: 1px solid #ffffff; */
+    width: 35%;
+    transform: scale(1);
+    transition: ease 0.5s;
+}
+.box2-item:nth-child(odd):hover {
+    transform: scale(1.1);
+}
+.box2-item:nth-child(even) {
+    margin-top: 20px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    height: 45vh;
+    /* border: 1px solid #ffffff; */
+    width: 60%;
+    font-size: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+#img-life {
+    width: 80%;
+    height: 100%;
+}
+#h-life {
+    font-size: 30px;
+    font-weight: 700;
 }
