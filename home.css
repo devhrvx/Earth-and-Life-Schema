@@ -26,6 +26,16 @@ body {
     text-decoration: none;
     margin-left: 20px;
     color: #000;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 6px;
+}
+
+.nav-box a:hover {
+    color: #fff;
+    background-color: #428142;
+    border-radius: 6px;
 }
 #earth {
     margin-right: 60px;
@@ -35,19 +45,6 @@ body {
     margin-right: 60px;
     
 }
-#life:hover {
-    color: #fff;
-    background-color: #428142;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-#earth:hover {
-    color: #fff;
-    background-color: #428142;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
 @media (max-width: 768px) {
     .nav-box {
         flex-direction: column;
