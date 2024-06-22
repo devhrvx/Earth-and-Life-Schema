@@ -1,0 +1,66 @@
+body {
+    background-color: #1f1f1f;
+    padding-top: 70px; /* Adjust this value based on the actual height of your nav-box */
+}
+
+.nav-box {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-box img {
+    height: 50px;
+}
+
+.nav-box a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #000;
+}
+#earth {
+    margin-right: 60px;
+
+}
+#life {
+    margin-right: 60px;
+    
+}
+#life:hover {
+    color: #fff;
+    background-color: #428142;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#earth:hover {
+    color: #fff;
+    background-color: #428142;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .nav-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    .nav-box img {
+        margin-bottom: 10px;
+    }
+
+    .nav-box a {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+}
